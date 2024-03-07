@@ -71,7 +71,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     height: 300px;
-    width: 1000px;
+    width: 1300px;
   }
    
   .tabs label {
@@ -175,6 +175,6 @@ body {
 }
 
 .tabs_p {
-  line-height: 140%;
+  line-height: 100%;
 }
 
