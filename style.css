@@ -43,12 +43,12 @@ a {
 
 }
 
-/* FOR ELIMINATING 8PX BORDER FROM DEFAULT WEBSITE */
+/* FOR ELIMINATING 8PX BORDER FROM DEFAULT WEBSITE & BODY HEIGHT*/
 body {
   display: flex;
     margin: 0;
     padding: 0;
-    min-height: 175vh;
+    min-height: 1600;
     flex-direction: column;
 }
 
@@ -132,8 +132,8 @@ body {
 
   /* ABOVER PINK BOX */
 
-  .element_h4 {
-    text-align: center;
+  #elements_h4 {
+    padding: 5%;
   }
 
 
@@ -171,10 +171,91 @@ body {
 
 /* DIV ABOVE PINK BOXES */
 .firstdiv_text {
-  padding:5%
+  margin: auto;
+  padding: 1%;
 }
 
 .tabs_p {
   line-height: 100%;
 }
 
+
+
+
+
+/********** PAGE 4 *************/
+
+.pg4_parent {
+	border: solid 5px;
+    border-color: blue;
+    padding: 5px;
+    height: 450px;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 4px;
+
+
+    
+
+}
+
+
+.pg4_child1 {
+	  border: solid 3px;
+    border-color: orange;
+    height: 440px;
+    width: 700px;
+    float: left;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    
+}
+
+.pg4_sub {
+	  border: solid 3px;
+    border-color: green;
+    display: flex;
+    height: 150px;
+    width: 250px;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+
+/* THE CONSEQUENCES IMAGES!!!!!!!! */
+
+
+/* consequences div */
+#cons_div {
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+  background-color: red;
+  margin-top: 20px;
+  margin: auto;
+  margin-top: 10px;
+  display: none;
+  height: 800px;
+}
+
+/* consequences button */
+#test {
+  border: solid 3px;
+  border-color: black;
+  color: black;
+  height: 35px;
+  width: 140px;
+  margin-left: 200px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  
+}
+
+.cons_img {
+  display: inline;
+}
