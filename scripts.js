@@ -7,3 +7,6 @@ function myFunction() {
         x.style.display = "none";
     }
 }
+
+
+// pg 6 cherry blossom!!!

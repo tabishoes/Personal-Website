@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 
 
 
@@ -446,9 +448,14 @@ body {
 
 /* *************PAGE 5-- VALUE*************** */
 
-.custom_pg5 .nav_ul{
+#custom_pg5 .nav_ul{
   background-color: black;
   opacity: 100%;
+}
+
+/* ADDED MIN HEIGHT TO PG 5 BODY. MIN HEIGHT IN OTHER PAGE IS 1600.  */
+#custom_pg5 {
+  min-height: auto;
 }
 
 /* WINDOWS 95 WARNING ICON */
@@ -579,23 +586,23 @@ body {
 #pg5_parent{
   border: solid 5px;
   border-color: rgb(116, 104, 108);
-  height: 400px;
-  width: 900px;
+  height: 1800px;
+  width: 1000px;
   padding: 20px;
   margin: auto;
   margin-bottom: 10px;
- 
+  margin-top: 10px;
 }
 
 #pg5_child1{
   border: solid 3px;
   border-color: rgb(0, 211, 123);
-  height: 340px;
-  width: 500px;
+  height: 180px;
+  width: 630px;
   float: left;
-  margin-right: 100px;
+  margin-right: 50px;
   margin-left: 10px;
-  
+  margin-bottom: 20px;
 }
 
 
@@ -603,7 +610,90 @@ body {
   border: solid 3px;
     border-color: rgb(161, 76, 147);
     display: flex;
-    height: 150px;
-    width: 220px;
-    margin-bottom: 50px;
+    height: 185px;
+    width: 250px;
+    margin-bottom: 15px;
+    margin-top: 2px;
+}
+
+#value_h2 {
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  font-family: "Syne Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+/* !!!!!PAGE 6!!!!!! */
+
+
+#pg6_parent{
+  border: solid 5px;
+  border-color: rgb(185, 0, 62);
+  height: 500px;
+  width: 1400px;
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+#pg6_child1{
+  border: solid 3px;
+  border-color: rgb(255, 230, 0);
+  height: 480px;
+  width: 420px;
+  float: left;
+}
+
+
+#pg6_sub{
+  border: solid 2px;
+    border-color: rgb(168, 101, 255);
+    display: flex;
+    height: 200px;
+    width: 310px;
+    float:right;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.fav_imgs{
+  height: 200px;
+  width: 310px;
+}
+
+/* ********page 7********* */
+
+#pg7_firstdiv {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 1000px;
+  text-align: center;
+  border: solid 2px rgb(0, 153, 255);
+}
+
+#pg7_quote{
+  width: 800px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border: solid 2px rgb(0, 138, 138);
+}
+
+#pg7_quote_author{
+  border: solid 2px gold;
+  font-size: 20px;
+  text-align: right;
+  height: fit-content;
+  width: 800px;
+  margin: auto;
 }
