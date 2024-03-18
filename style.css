@@ -6,35 +6,7 @@
 
 
 
-/* home page footer */
-footer {
-  padding: 3px;
-  background-color: rgb(141, 160, 135);
-  color: white;
-  width: 100%;
-}
-
-/* WORK ON FOOTER AT THE END  */
-
-.icon_left {
-	width: auto;
-    height: 80;
-    float: left;
-
-}
-
-#cute_picdiv{
-	height: 30px;
-  }
-  
-  .icon_right{
-  width: auto;
-  height: 80px;
-  float: right;
-  }
-
-
-
+/* NAV BAR!!! */
 .nav_ul {
     list-style: none;
     display: flex;
@@ -46,10 +18,9 @@ footer {
     font-family: "Courier Prime", monospace;
     font-weight: 400;
     font-style: normal;
+    background-color: rgb(240, 204, 210);
+    opacity: 80%;
 }
-
-
-/* HOVER BUTTON NEEDS WORK!! */
 
 .button {
   font-family: "Courier Prime", monospace;
@@ -74,40 +45,103 @@ a {
     margin-right: 30px;
 
 }
+/* END OF NAV BAR */
+
 
 /* FOR ELIMINATING 8PX BORDER FROM DEFAULT WEBSITE & BODY HEIGHT*/
 body {
   display: flex;
-    margin: 0;
-    padding: 0;
-    min-height: 1700;
-    flex-direction: column;
+  margin: 0;
+  padding: 0;
+  min-height: 1700;
+  flex-direction: column;
 }
 
+/* footer */
+footer {
+  padding: 3px;
+  background-color: rgb(141, 160, 135);
+  color: white;
+  width: 100%;
+}
+
+.icon_left {
+	width: auto;
+    height: 80;
+    float: left;
+}
+#cute_picdiv{
+	height: 30px;
+  }
+  
+  .icon_right{
+  width: auto;
+  height: 80px;
+  float: right;
+  }
+
+  /* END OF FOOTER */
+
+/****** PAGE 1: HOME ******/
 
 
-/* pg 1 thesis !!! */
 
+
+
+
+/******PG 2: THESIS******/
 #thesis_body {
     background-image: url(https://i.postimg.cc/g0Fv87Ff/Thesis-Background.jpg);
     background-size: 70%;
     background-attachment: fixed;
     min-height: 900px;
-   
-
-    
-
 }
 
 #thesis_div{
   min-height: 780px;
 }
 
-.nav_ul {
-    background-color: rgb(240, 204, 210);
-    opacity: 80%;
+
+/******PAGE 3: ELEMENTS******/
+#elements_h4 {
+  padding: 5%;
 }
 
+
+/* START OF ELEMENT DIVS */
+.element_parent {
+  border: none;
+  margin: 1rem;
+  text-align: center;
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 20 0 20;
+}
+
+.element_child {
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  width: 300;
+  height: 250;
+  margin: auto;
+  background-color: rgb(248, 223, 227);
+  box-shadow: 10px 8px 10px 5px rgb(255, 255, 255);
+}
+
+
+.element_subchild1 li {
+  padding: 3%;
+}
+/* END OF ELEMENT DIVS!!! */
+
+/* START OF CLICKABLE ELEMENT TABS!!! */
 .tabs {
     display: flex;
     flex-wrap: wrap;
@@ -172,50 +206,11 @@ body {
     color:black;  
 }
 
-  /* ABOVER PINK BOX */
-
-  #elements_h4 {
-    padding: 5%;
-  }
-
-
-.element_parent {
-  border: none;
-  margin: 1rem;
-  text-align: center;
-  font-family: "Courier Prime", monospace;
-  font-weight: 400;
-  font-style: normal;
-  text-align: left;
-  display: flex;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 0 20 0 20;
-}
-
-.element_child {
-  display: inline-block;
-  border: 1px solid black;
-  padding: 1rem 1rem;
-  vertical-align: middle;
-  width: 300;
-  height: 250;
-  margin: auto;
-  background-color: rgb(248, 223, 227);
-  box-shadow: 10px 8px 10px 5px rgb(255, 255, 255);
-}
-
-
-.element_subchild1 li {
-  padding: 3%;
-}
+  
 
 
 /* DIV ABOVE PINK BOXES */
-.firstdiv_text {
-  margin: auto;
-  padding: 1%;
-}
+
 
 .tabs_p {
   line-height: 100%;
@@ -225,9 +220,252 @@ body {
 
 
 
-/********** PAGE 4 *************/
+/********** PAGE 4: FILM, TV, PLUS*************/
 
-/* consequences div */
+
+
+/* !!!!!!!!ALL TEXT DIVS!!!!!!!!!  LISTED SECTION NAMES MOVIES DIVS*/
+/* HEADING DIV */
+#pg3_firstdiv {
+  margin: auto;
+  padding: 4%;
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+/* MOVIE DIVS!!!! */
+#pg4_parent {
+	border: solid 5px;
+    border-color: blue;
+    padding: 5px;
+    height: 510px;
+    width: 900px;
+    margin: auto;
+    margin-bottom: 4px;
+}
+
+
+#pg4_child1 {
+	  border: solid 3px;
+    border-color: orange;
+    height: 440px;
+    width: 500px;
+    float: left;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-right: 30px;
+    
+}
+
+#pg4_sub {
+	  border: solid 2px;
+    border-color: green;
+    display: flex;
+    height: 250px;
+    width: 300px;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+#pic1{
+  height: 200px;
+  width: 300px;
+}
+
+#pic2{
+  height: 200px;
+  width: 200;
+}
+
+
+
+
+/* TV DIVS!!!!!!! */
+
+#pg4_parenttv{
+  border: solid 5px;
+  border-color: rgb(255, 102, 0);
+  height: 600px;
+  width: 900px;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+#pg4_child1tv{
+  border: solid 3px;
+  border-color: palegreen;
+  height: 580px;
+  width: 480px;
+  float: left;
+  margin-right: 20px;
+}
+
+
+#pg4_subtv{
+  border: solid 3px;
+    border-color: rgb(255, 0, 221);
+    display: flex;
+    height: 300px;
+    width: 380px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pic3{
+  height: 220px;
+}
+
+#pic4{
+  height: 310px;
+}
+
+/* ANIME DIVS !!!!!!! */
+
+#pg4_parenttv2{
+  border: solid 5px;
+  border-color: rgb(216, 160, 55);
+  height: 555px;
+  width: 1000px;
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+#pg4_child1tv2{
+  border: solid 3px;
+  border-color: rgb(5, 110, 5);
+  height: 550px;
+  width: 500px;
+  float: left;
+  margin-right: 50px;
+}
+
+
+#pg4_subtv2{
+  border: solid 3px;
+    border-color: rgb(0, 141, 160);
+    display: flex;
+    height: 270px;
+    width: 400px;
+    margin-bottom: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pic_5{
+  height: 240px;
+}
+
+#pic_6{
+  height: 240px;
+}
+
+/* MUSIC VIDEOS DIVS!!!!!!!!! */
+
+#pg4_parenttv3{
+  border: solid 5px;
+  border-color: rgb(182, 44, 90);
+  height: 400px;
+  width: 900px;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+#pg4_child1tv3{
+  border: solid 3px;
+  border-color: rgb(139, 82, 28);
+  height: 340px;
+  width: 500px;
+  float: left;
+  margin-right: 100px;
+  margin-left: 10px;
+  
+}
+
+
+#pg4_subtv3{
+  border: solid 3px;
+    border-color: rgb(80, 126, 80);
+    display: flex;
+    height: 150px;
+    width: 220px;
+    margin-bottom: 50px;
+}
+
+
+/* YOUTUBE VIDEOS DIVS ID!!!!!!!!! */
+
+#pg4_parenttv4{
+  border: solid 5px;
+  border-color: rgb(116, 104, 108);
+  height: 580px;
+  width: 900px;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+#pg4_child1tv4{
+  border: solid 3px;
+  border-color: rgb(0, 211, 123);
+  height: 540px;
+  width: 450px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+  
+}
+
+
+#pg4_subtv4{
+  border: solid 3px;
+    border-color: rgb(161, 76, 147);
+    display: flex;
+    height: 290px;
+    width: 400px;
+    margin-bottom: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pic9{
+  height: 260px;
+  width: 300;
+}
+
+#pic_10{
+  height: 250px;
+}
+
+/**** consequences div ****/
 #cons_div {
   width: 100%;
   padding: 50px;
@@ -284,178 +522,8 @@ body {
 }
 
 
-/* !!!!!!!!ALL TEXT DIVS!!!!!!!!! */
 
-#pg4_parent {
-	border: solid 5px;
-    border-color: blue;
-    padding: 5px;
-    height: 500px;
-    width: 900px;
-    margin: auto;
-    margin-bottom: 4px;
-}
-
-
-#pg4_child1 {
-	  border: solid 3px;
-    border-color: orange;
-    height: 440px;
-    width: 500px;
-    float: left;
-    font-family: "Courier Prime", monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    margin-right: 50px;
-    
-}
-
-#pg4_sub {
-	  border: solid 3px;
-    border-color: green;
-    display: flex;
-    height: 210px;
-    width: 320px;
-    font-family: "Courier Prime", monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-}
-
-
-
-/* TV DIVS ID!!!!!!! */
-
-#pg4_parenttv{
-  border: solid 5px;
-  border-color: rgb(255, 102, 0);
-  height: 500px;
-  width: 900px;
-  padding: 20px;
-  margin: auto;
-  margin-bottom: 10px;
-}
-
-#pg4_child1tv{
-  border: solid 3px;
-  border-color: palegreen;
-  height: 500px;
-  width: 500px;
-  float: left;
-  margin-right: 50px;
-}
-
-
-#pg4_subtv{
-  border: solid 3px;
-    border-color: rgb(255, 0, 221);
-    display: flex;
-    height: 250px;
-    width: 320px;
-}
-
-/* ANIME DIVS ID !!!!!!! */
-
-#pg4_parenttv2{
-  border: solid 5px;
-  border-color: rgb(216, 160, 55);
-  height: 550px;
-  width: 1000px;
-  padding: 10px;
-  margin: auto;
-  margin-bottom: 10px;
-}
-
-#pg4_child1tv2{
-  border: solid 3px;
-  border-color: rgb(5, 110, 5);
-  height: 540px;
-  width: 500px;
-  float: left;
-  margin-right: 10px;
-}
-
-
-#pg4_subtv2{
-  border: solid 3px;
-    border-color: rgb(0, 141, 160);
-    display: flex;
-    height: 250px;
-    width: 450px;
-}
-
-
-/* MUSIC VIDEOS DIVS ID!!!!!!!!! */
-
-#pg4_parenttv3{
-  border: solid 5px;
-  border-color: rgb(182, 44, 90);
-  height: 400px;
-  width: 900px;
-  padding: 20px;
-  margin: auto;
-  margin-bottom: 10px;
-}
-
-#pg4_child1tv3{
-  border: solid 3px;
-  border-color: rgb(139, 82, 28);
-  height: 340px;
-  width: 500px;
-  float: left;
-  margin-right: 100px;
-  margin-left: 10px;
-  
-}
-
-
-#pg4_subtv3{
-  border: solid 3px;
-    border-color: rgb(80, 126, 80);
-    display: flex;
-    height: 150px;
-    width: 220px;
-    margin-bottom: 50px;
-}
-
-
-/* YOUTUBE VIDEOS DIVS ID!!!!!!!!! */
-
-#pg4_parenttv4{
-  border: solid 5px;
-  border-color: rgb(116, 104, 108);
-  height: 400px;
-  width: 900px;
-  padding: 20px;
-  margin: auto;
-  margin-bottom: 10px;
-}
-
-#pg4_child1tv4{
-  border: solid 3px;
-  border-color: rgb(0, 211, 123);
-  height: 340px;
-  width: 500px;
-  float: left;
-  margin-right: 100px;
-  margin-left: 10px;
-  
-}
-
-
-#pg4_subtv4{
-  border: solid 3px;
-    border-color: rgb(161, 76, 147);
-    display: flex;
-    height: 150px;
-    width: 220px;
-    margin-bottom: 50px;
-}
-
-
-
-/* *************PAGE 5-- VALUE*************** */
+/***********PAGE 5: VALUE*************/
 
 #custom_pg5 .nav_ul{
   background-color: black;
@@ -468,8 +536,6 @@ body {
 }
 
 /* WINDOWS 95 WARNING ICON */
-
-
 .container {
   margin: auto;
   margin-top: 20px;
@@ -638,8 +704,7 @@ body {
   font-size: 20px;
 }
 
-/* !!!!!PAGE 6!!!!!! */
-
+/******PAGE 6: FAVORITES******/
 
 #pg6_parent{
   border: solid 5px;
@@ -678,7 +743,7 @@ body {
   width: 310px;
 }
 
-/* ********page 7********* */
+/* ********page 7: CALL TO ACTION********* */
 
 #pg7_firstdiv {
   margin: auto;
