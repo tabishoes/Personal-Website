@@ -7,7 +7,6 @@
 
 
 /* home page footer */
-
 footer {
   padding: 3px;
   background-color: rgb(141, 160, 135);
@@ -81,18 +80,27 @@ body {
   display: flex;
     margin: 0;
     padding: 0;
-    min-height: 1600;
+    min-height: 1700;
     flex-direction: column;
 }
 
 
 
+/* pg 1 thesis !!! */
 
-
-#thesis_bg {
+#thesis_body {
     background-image: url(https://i.postimg.cc/g0Fv87Ff/Thesis-Background.jpg);
-    background-size: 80%;
+    background-size: 70%;
+    background-attachment: fixed;
+    min-height: 900px;
+   
 
+    
+
+}
+
+#thesis_div{
+  min-height: 780px;
 }
 
 .nav_ul {
@@ -133,6 +141,7 @@ body {
     padding: 20px;
     box-shadow: -10px 10px 0px 0px black;
   }
+
    
   .tabs input[type="radio"] {
     display: none;
@@ -281,7 +290,7 @@ body {
 	border: solid 5px;
     border-color: blue;
     padding: 5px;
-    height: 450px;
+    height: 500px;
     width: 900px;
     margin: auto;
     margin-bottom: 4px;
