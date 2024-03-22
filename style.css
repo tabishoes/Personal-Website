@@ -689,8 +689,8 @@ footer {
 #pg5_parent{
   border: solid 5px;
   border-color: rgb(116, 104, 108);
-  height: 2600px;
-  width: 1050px;
+  height: 3000px;
+  width: 1200px;
   padding: 10px;
   margin: auto;
   margin-bottom: 10px;
@@ -704,10 +704,10 @@ footer {
 #pg5_child1{
   border: solid 3px;
   border-color: rgb(0, 211, 123);
-  height: 280px;
-  width: 630px;
+  height: 320px;
+  width: 800px;
   float: left;
-  margin-right: 30px;
+  margin-right: 10px;
   margin-left: 5px;
   margin-bottom: 20px;
   padding: 10px;
@@ -720,8 +720,8 @@ footer {
     display: flex;
     height: 220px;
     width: 350px;
-    margin-bottom: 100px;
-    margin-top: 40px;
+    margin-bottom: 140px;
+    margin-top: 70px;
 }
 
 #value_h2 {
