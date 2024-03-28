@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 
 
 
@@ -59,8 +60,7 @@ body {
 
 /* footer */
 footer {
-  padding: 3px;
-  background-color: rgb(141, 160, 135);
+  background-color: rgba(141, 160, 135, 0.303);
   color: white;
   width: 100%;
 }
@@ -103,15 +103,24 @@ footer {
 
 
 /******PAGE 3: ELEMENTS******/
+
+#pg3_elements_body{
+  background-image: url();
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
 #pg3_firstdiv {
   font-family: "Courier Prime", monospace;
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
-  width: 1200px;
+  color: white;
+  width: 700px;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 
@@ -138,8 +147,8 @@ footer {
   width: 300;
   height: 250;
   margin: auto;
-  background-color: rgb(248, 223, 227);
-  box-shadow: 10px 8px 10px 5px rgb(255, 255, 255);
+  background-color: rgba(248, 223, 227, 0.66);
+  box-shadow: -10px 15px 0px 5px rgb(0, 0, 0);
 }
 
 
@@ -164,11 +173,11 @@ footer {
     padding: 1rem 2rem;
     margin-right: 0.2rem;
     cursor: pointer;
-    background-color: rgb(255, 223, 228);
+    background-color: rgba(255, 223, 228, 0.548);
     font-weight: bold;
     transition: background ease 0.3s;
     border: 1px solid rgb(61, 59, 59);
-    box-shadow: 1px 1px 50px 10px rgb(158, 111, 111);
+    box-shadow: 0px 5px 10px 10px rgba(148, 148, 148, 0.724);
   }
    
   .tabs .tab {
@@ -178,7 +187,7 @@ footer {
     height: 700px;
     display: none;
     padding: 1rem;
-    background: rgb(240, 209, 214);
+    background: rgba(240, 209, 214, 0.624);
     padding: 20px;
     box-shadow: -10px 10px 0px 0px black;
   }
@@ -689,7 +698,7 @@ footer {
 #pg5_parent{
   border: solid 5px;
   border-color: rgb(116, 104, 108);
-  height: 3000px;
+  height: 3500px;
   width: 1200px;
   padding: 10px;
   margin: auto;
@@ -735,6 +744,21 @@ footer {
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
+}
+
+
+/* unique texts divs  */
+#coraline_parent{
+  border: solid 3px;
+  border-color: rgb(238, 69, 153);
+  height: 550px;
+  width: 800px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  line-height: 1.4;
 }
 
 #pg5_pic1{
@@ -812,6 +836,10 @@ footer {
 
 /* ********page 7: CALL TO ACTION********* */
 
+#pg7_body{
+  min-height: fit-content;
+}
+
 #pg7_firstdiv {
   margin: auto;
   margin-top: 20px;
@@ -838,3 +866,181 @@ footer {
   width: 800px;
   margin: auto;
 }
+
+#pg7_festivals{
+  font-size: 30px;
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#pg7_first_div{
+  border: solid 2px green;
+  height: 1100px;
+  text-align: center;
+}
+
+.pg7_img_divs{
+  border: solid 5px red;
+  height: 200px;
+  width: 200px;
+  display:inline-block;
+  margin-left:50px;
+  margin-top: 15px;
+}
+
+.pg7_festival_img{
+  height: 150px;
+}
+
+/* **********page 8: Resources*********  */
+#pg8_body{
+  min-height: fit-content;
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/024/858/699/original/pixel-jeff-divoom.gif?1583771904);
+  background-size: cover;
+}
+
+
+#pg8_first_div{
+  border: solid 2px green;
+  height: 230px;
+  text-align: center;
+}
+
+.pg8_img_divs{
+  border: solid 5px red;
+  height: 200px;
+  width: 200px;
+  display:inline-block;
+  margin-left:50px;
+  margin-top: 15px;
+}
+
+.paper {
+ 
+  height: 550px;
+  width: 450px;
+  background: rgba(255,255,255,0.9);
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 5px 0px #888;
+}
+
+
+.text {
+  line-height: 10px;
+  font-family: "Courier Prime", monospace;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 12px;
+}
+
+#resources_title{
+  margin-bottom: 80px;
+  margin-top: 100px;
+}
+
+#written_by{
+  margin-top: 2px;
+}
+
+#resources_div{
+  margin-top: 50px;
+}
+
+#resources_links{
+  line-height: 0.3;
+  
+}
+
+.resources_a{
+  margin-right: 0;
+  text-decoration:underline;
+}
+
+#last_drat{
+  text-align: right;
+  margin-right: 30px;
+  margin-top: 150px;
+}
+
+/* **********page 9: Contact*********  */
+
+
+
+#pg9_contact_body{
+  min-height: fit-content;
+  margin: 0;
+  background-image: url(https://i.redd.it/r97mrbpv18771.gif);
+  background-size: cover;
+}
+
+
+
+
+/* feeback card starts here */
+.card{
+  width: 550px;
+  height: 610px;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 90px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+}
+
+#feedback_div{
+  border: solid 1px rgb(0, 0, 0);
+  background-color: rgb(207, 207, 194);
+  padding: 3px;
+  box-shadow: -15px 25px 0px rgba(0, 0, 0, 10);
+
+}
+#pg9_leave_feedback{
+  font-size: 40px;
+}
+
+#row{
+  border: solid 1px rgb(0, 0, 0);
+  height: 550px;
+  background-color: rgb(226, 225, 223);
+  box-shadow: -15px 25px 0px rgba(0, 0, 0, 10);
+}
+
+
+.info_sections{
+  font-size: 30px;
+  margin-top: 20px;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+#pg9_submit_button{
+  margin-top: 100px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#submit_bttn{
+  border: solid 1px black;
+  height: 40px;
+  width: 100px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  cursor: pointer; 
+}
+
+#submit_bttn:hover{
+  background-color: rgb(239, 0, 0);
+}
+
+/* end of feedback card */
