@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
 
 
 
@@ -106,8 +107,12 @@ footer {
 
 #pg3_elements_body{
   background-image: url();
-  background-size: 80%;
-  background-repeat: no-repeat;
+}
+
+#pg3_elements_body{
+  background-image: url(https://i.postimg.cc/Fzm7P6Yk/hand2.png);
+  background-size: 100%;
+  background-attachment: fixed;
 }
 
 #pg3_firstdiv {
@@ -238,37 +243,47 @@ footer {
 
 /********** PAGE 4: FILM, TV, PLUS*************/
 
+#pg4_body{
+  background: 
+    url(https://pbs.twimg.com/media/CTPIPmcXIAAPy51.png) left top no-repeat, 
+    url(https://leobruce09.files.wordpress.com/2015/10/wpid-58022e29593639-55fa466220f372.png) left 800px no-repeat, 
+    url(https://inspgr.id/app/uploads/2016/01/illustration-gustavo-viselner-07.jpg) left 1600px no-repeat,
+    url(https://i.ytimg.com/vi/AkEsMsUOb04/maxresdefault.jpg) left 2410px no-repeat;
+  background-size: 100%;
 
+
+
+  
+
+}
 
 /* !!!!!!!!ALL TEXT DIVS!!!!!!!!!  LISTED SECTION NAMES MOVIES DIVS*/
 /* HEADING DIV */
 #pg4_firstdiv {
   margin: auto;
-  padding: 3%;
+  padding: 5%;
   font-family: "Courier Prime", monospace;
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 /* MOVIE DIVS!!!! */
 #pg4_parent {
-	border: solid 5px;
-    border-color: blue;
+
     padding: 5px;
     height: 510px;
     width: 900px;
     margin: auto;
     margin-bottom: 4px;
-    background-color: rgba(255, 230, 230, 0.692);
+    background-color: rgba(255, 255, 255, 0.644);
     
 }
 
 
 #pg4_child1 {
-	  border: solid 3px;
-    border-color: orange;
+
     height: 500px;
     width: 500px;
     float: left;
@@ -283,8 +298,7 @@ footer {
 }
 
 #pg4_sub {
-	  border: solid 2px;
-    border-color: green;
+
     display: flex;
     height: 250px;
     width: 300px;
@@ -325,7 +339,7 @@ footer {
   font-weight: 400;
   font-style: normal;
   font-size: 15px;
-  background-color: rgba(255, 230, 230, 0.692);
+  background-color: rgba(255, 255, 255, 0.623);
 }
 
 #pg4_child1tv{
@@ -372,7 +386,7 @@ footer {
   font-weight: 400;
   font-style: normal;
   font-size: 15px;
-  background-color: rgba(255, 230, 230, 0.692);
+  background-color: rgba(255, 255, 255, 0.432);
 }
 
 #pg4_child1tv2{
@@ -420,7 +434,7 @@ footer {
   font-weight: 400;
   font-style: normal;
   font-size: 15px;
-  background-color: rgba(255, 230, 230, 0.692);
+  background-color: rgba(255, 255, 255, 0.637);
 }
 
 #pg4_child1tv3{
@@ -461,7 +475,7 @@ footer {
   font-weight: 400;
   font-style: normal;
   font-size: 15px;
-  background-color: rgba(255, 230, 230, 0.692);
+  background-color: rgba(255, 255, 255, 0.534);
 }
 
 #pg4_child1tv4{
@@ -505,12 +519,11 @@ footer {
 /**** consequences div ****/
 #cons_div {
   width: 100%;
-  padding: 50px;
+  padding: 0px;
   text-align: center;
   background-color: rgb(146, 10, 10);
   margin-top: 20px;
   margin: auto;
-  margin-top: 10px;
   display: none;
   height: 800px;
 }
@@ -572,6 +585,14 @@ footer {
 
 #cons_img4{
   height: 300px;
+}
+
+#cons_img5{
+  height: 150px;
+}
+
+#cons_img6{
+  height: 200px;
 }
 
 
@@ -818,6 +839,10 @@ footer {
   width: 350px;
 }
 /******PAGE 6: FAVORITES******/
+#pg6_body{
+  background-image: url(https://i.postimg.cc/52BHdbMK/l2.jpg);
+  background-size: cover;
+}
 
 #pg6_title{
   margin: auto;
@@ -880,6 +905,10 @@ footer {
 
 #pg7_body{
   min-height: fit-content;
+  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1655601990422213593/EECEDAAEEAC730AC95AA5602D6052F2A1F0BD3CE/?imw=1024&imh=574&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.2);
+  background-blend-mode: overlay;
 }
 
 #pg7_title{
@@ -905,17 +934,17 @@ footer {
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap'); /*font not working!!!!*/
 
 #pg7_quote{
   width: 800px;
   text-align: center;
   margin: auto;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 25px;
   border: solid 5px rgb(0, 138, 138);
-  font-family: "Nanum Myeongjo", serif; /* font not working*/
-  font-weight: 400; /* font not working*/
+  font-family: "Mate SC", serif;
+  font-weight: 600;
+  font-style: normal;
   }
 
 #pg7_quote_author{
@@ -927,6 +956,10 @@ footer {
   margin: auto;
 }
 
+#pg7_film_fest_h4{
+  width: 1300px;
+}
+
 #pg7_festivals{
   font-size: 30px;
   font-family: "Courier Prime", monospace;
@@ -936,42 +969,49 @@ footer {
 
 #pg7_first_div{
   border: solid 2px green;
-  height: 1300px;
+  height: 1000px;
+  width: 1400px;
+  margin: auto;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .pg7_img_divs{
-  border: solid 5px red;
+
   height: 150px;
   width: 150px;
-  display:inline-block;
-  background-color: rgba(242, 75, 75, 0.578);
+  margin: 5px;
+  flex: 1;
+  flex-grow: 0;
+
+  margin-right: 45px;
+  margin-left: 45px;
 }
 
 .pg7_festival_img{
   height: 150px;
   width: 150px;
-  margin-top: 10px;
 }
 
 #pg7_festival_img9{
-  height: 140px;
-  width: 200px;
-  display: flex;
+  height: 100px;
+  width: 150px;
   margin-top: 20px;
 }
 
 #pg7_festival_img13{
-  height: 100px;
-  width: 200px;
-  display: flex;
-  margin-top: 45px;
+  height: 80px;
+  width: 150px;
+  margin-top: 35px;
+ 
 }
 
 #pg7_festival_img22{
   height: 80px;
   width: 150px;
-  margin-top: px;
+  margin-top: 30px;
 }
 
 /* **********page 8: Resources*********  */
