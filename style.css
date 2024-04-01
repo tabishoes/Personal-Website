@@ -558,6 +558,22 @@ footer {
   display: inline;
 }
 
+#cons_img1{
+  height: 200px;
+}
+
+#cons_img2{
+  height: 200px;
+}
+
+#cons_img3{
+  height: 200px;
+}
+
+#cons_img4{
+  height: 300px;
+}
+
 
 
 /***********PAGE 5: VALUE*************/
@@ -775,6 +791,32 @@ footer {
   height: 200px;
   margin-top: 10px;
 }
+
+#pg5_pic9{
+  height: 200px;
+  width: auto;
+  margin-top: 10px;
+}
+
+#pg5_pic10{
+  height: 210px;
+  margin-top: 5px;
+}
+
+#pg5_pic11{
+  height: 200px;
+  margin-top: 10px;
+}
+
+#pg5_pic12{
+  height: 210px;
+  margin-top: 5px;
+}
+
+#pg5_pic14{
+  height: 220px;
+  width: 350px;
+}
 /******PAGE 6: FAVORITES******/
 
 #pg6_title{
@@ -840,14 +882,30 @@ footer {
   min-height: fit-content;
 }
 
+#pg7_title{
+  text-align: center;
+  font-family: "Courier Prime", monospace;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
 #pg7_firstdiv {
   margin: auto;
   margin-top: 20px;
   margin-bottom: 10px;
-  width: 1000px;
+  width: 1300px;
   text-align: center;
   border: solid 2px rgb(0, 153, 255);
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-size: 20px;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap'); /*font not working!!!!*/
 
 #pg7_quote{
   width: 800px;
@@ -855,8 +913,10 @@ footer {
   margin: auto;
   margin-bottom: 10px;
   font-size: 20px;
-  border: solid 2px rgb(0, 138, 138);
-}
+  border: solid 5px rgb(0, 138, 138);
+  font-family: "Nanum Myeongjo", serif; /* font not working*/
+  font-weight: 400; /* font not working*/
+  }
 
 #pg7_quote_author{
   border: solid 2px gold;
@@ -876,21 +936,42 @@ footer {
 
 #pg7_first_div{
   border: solid 2px green;
-  height: 1100px;
+  height: 1300px;
   text-align: center;
 }
 
 .pg7_img_divs{
   border: solid 5px red;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   display:inline-block;
-  margin-left:50px;
-  margin-top: 15px;
+  background-color: rgba(242, 75, 75, 0.578);
 }
 
 .pg7_festival_img{
   height: 150px;
+  width: 150px;
+  margin-top: 10px;
+}
+
+#pg7_festival_img9{
+  height: 140px;
+  width: 200px;
+  display: flex;
+  margin-top: 20px;
+}
+
+#pg7_festival_img13{
+  height: 100px;
+  width: 200px;
+  display: flex;
+  margin-top: 45px;
+}
+
+#pg7_festival_img22{
+  height: 80px;
+  width: 150px;
+  margin-top: px;
 }
 
 /* **********page 8: Resources*********  */
