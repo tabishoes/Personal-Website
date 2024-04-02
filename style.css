@@ -599,6 +599,10 @@ footer {
 
 /***********PAGE 5: VALUE*************/
 
+#custom_pg5{
+  background: linear-gradient(to bottom, rgb(14, 14, 14), #0c0c0c,  #4b4346, #ffeaf2, #ffe8f1, #fff9fc);
+}
+
 #custom_pg5 .nav_ul{
   background-color: black;
   opacity: 100%;
@@ -666,7 +670,6 @@ footer {
 	border-top: 1px solid white;
 	font-size: 55%;
 	text-align: center;
-
 	}
 
 .warning-content {
@@ -676,6 +679,9 @@ footer {
 	border: 1.2px solid black;
 	overflow: hidden;
 	padding: 20px 30px;
+  font-family: "Mate SC", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .windows95_p {
@@ -731,11 +737,58 @@ footer {
 
 /* **END OF WINDOWS 95 WARNING ICON** */
 
+#flame{
+  float: left;
+  position: relative;
+  width: 180px;
+  height: 250px;
+  position: absolute;
+  top: 300px;
+  left: 200px;
+}
+
+#flame2{
+  float: left;
+  position: relative;
+  width: 180px;
+  height: 250px;
+  position: absolute;
+  top: 300px;
+  left: 1400px;
+}
+
+#value_h2 {   /* Our media is oversaturated with misleading information.... */
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 900px;
+  text-align: center;
+  font-family: "Syne Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(211, 0, 0);
+}
+
+
+#value_h2_2 {  /* "So is it all bad?  */
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  font-family: "Syne Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
 
 #pg5_parent{
   border: solid 5px;
   border-color: rgb(116, 104, 108);
-  height: 3500px;
+  height: 3400px;
   width: 1200px;
   padding: 10px;
   margin: auto;
@@ -757,6 +810,23 @@ footer {
   margin-left: 5px;
   margin-bottom: 20px;
   padding: 10px;
+  font-size: 17px;
+  line-height: 30px;
+  color: white;
+}
+
+#pg5_child1_2{
+  border: solid 3px;
+  border-color: rgb(0, 211, 123);
+  height: 320px;
+  width: 800px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 17px;
+  line-height: 30px;
 }
 
 
@@ -770,25 +840,12 @@ footer {
     margin-top: 70px;
 }
 
-#value_h2 {
-  margin: auto;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
-  text-align: center;
-  font-family: "Syne Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
-}
-
 
 /* unique texts divs  */
-#coraline_parent{
+#pg5_child1_brave{
   border: solid 3px;
-  border-color: rgb(238, 69, 153);
-  height: 550px;
+  border-color: rgb(248, 0, 124);
+  height: 350px;
   width: 800px;
   float: left;
   margin-right: 10px;
@@ -796,6 +853,107 @@ footer {
   margin-bottom: 20px;
   padding: 10px;
   line-height: 1.4;
+  font-size: 17px;
+}
+
+#coraline_parent{
+  border: solid 3px;
+  border-color: rgb(248, 0, 124);
+  height: 580px;
+  width: 800px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  line-height: 1.4;
+  font-size: 17px;
+}
+
+#marriage_story_parent{
+  border: solid 3px;
+  border-color: rgb(163, 59, 111);
+  height: 330px;
+  width: 800px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  line-height: 1.4;
+  font-size: 17px;
+}
+
+#barbie_parent{
+  border: solid 3px;
+  border-color: rgb(194, 0, 48);
+  height: 450px;
+  width: 800px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  line-height: 1.4;
+  font-size: 17px;
+}
+
+#pg5_sub12{
+  border: solid 3px;
+    border-color: rgb(205, 219, 0);
+    display: flex;
+    height: 220px;
+    width: 350px;
+    margin-bottom: 140px;
+    margin-top: 200px;
+}
+
+#pg5_sub13{
+    border: solid 3px;
+    border-color: rgb(205, 219, 0);
+    display: flex;
+    height: 220px;
+    width: 350px;
+    margin-bottom: 280px;
+    margin-top: 220px;
+}
+
+#pg5_sub14{
+border: solid 3px;
+    border-color: rgb(205, 219, 0);
+    display: flex;
+    height: 220px;
+    width: 350px;
+    margin-bottom: 180px;
+    margin-top: 280px;
+}
+
+#turning_red_parent{
+  border: solid 3px;
+  border-color: rgb(238, 69, 153);
+  height: 350px;
+  width: 800px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  line-height: 1.4;
+  font-size: 17px;
+}
+
+#no_longer_here_parent{
+  border: solid 3px;
+  border-color: rgb(238, 69, 153);
+  height: 350px;
+  width: 800px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  line-height: 1.4;
+  font-size: 17px;
 }
 
 #pg5_pic1{
@@ -838,6 +996,25 @@ footer {
   height: 220px;
   width: 350px;
 }
+
+#pg5_test_h3{
+  text-align: center;
+  font-size: 30px;
+}
+
+#pg5_test{
+  border: solid 4px rgb(96, 17, 201);
+  margin: auto;
+  width: 650px;
+  font-size: 25px;
+  line-height: 45px;
+  background-color: rgb(226, 226, 226);
+  box-shadow: -20px 10px 0px rgb(0, 0, 0);
+  font-family: "Mate SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 25px
+}
 /******PAGE 6: FAVORITES******/
 #pg6_body{
   background-image: url(https://i.postimg.cc/52BHdbMK/l2.jpg);
@@ -879,7 +1056,7 @@ footer {
   border: solid 3px;
   border-color: rgb(255, 230, 0);
   height: 480px;
-  width: 420px;
+  width: 410px;
   float: left;
 }
 
