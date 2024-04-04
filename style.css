@@ -55,13 +55,13 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  min-height: 1700;
+  min-height: 1000;
   flex-direction: column;
 }
 
-/* footer */
+/* footer   rgba(141, 160, 135, 0.303); */
 footer {
-  background-color: rgba(141, 160, 135, 0.303);
+  background-color: rgba(141, 160, 135, 0.63);
   color: white;
   width: 100%;
 }
@@ -71,6 +71,23 @@ footer {
     height: 80;
     float: left;
 }
+
+#click{
+  float: right;
+  width: 540px;
+  height: 30px;
+  position: absolute;
+  top: 890px;
+  right: 75px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  text-shadow: 5px 1px 6px rgb(0, 0, 0);
+}
+
+
 #cute_picdiv{
 	height: 30px;
   }
@@ -83,36 +100,66 @@ footer {
 
   /* END OF FOOTER */
 
-/****** PAGE 1: HOME ******/
+/****** PAGE 1: HOME/ THESIS ******/
 
 
+.wrapper {
+  height: 85vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
 
+.typing-demo {
+  width: 53ch;
+  animation: typing 6s steps(50), blink .6s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+  font-size: 45px;
+  font-weight: 600;
+  color: white;
+  text-shadow: 5px 1px 6px rgb(0, 0, 0);
+}
 
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
 
-
-/******PG 2: THESIS******/
 #thesis_body {
     background-image: url(https://i.postimg.cc/g0Fv87Ff/Thesis-Background.jpg);
     background-size: 70%;
     background-attachment: fixed;
-    min-height: 900px;
+    min-height: 600px;
 }
 
-#thesis_div{
-  min-height: 780px;
+/* Film is the greatest form of art that exists */
+#thesis_div{    
+
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  display: flex;
 }
 
 
 /******PAGE 3: ELEMENTS******/
 
 #pg3_elements_body{
-  background-image: url();
-}
-
-#pg3_elements_body{
   background-image: url(https://i.postimg.cc/Fzm7P6Yk/hand2.png);
   background-size: 100%;
   background-attachment: fixed;
+  min-height: 1600px;
 }
 
 #pg3_firstdiv {
@@ -189,12 +236,13 @@ footer {
     order: 9;
     flex-grow: 1;
     width: 100%;
-    height: 700px;
+    height: 560px;
     display: none;
     padding: 1rem;
     background: rgba(240, 209, 214, 0.624);
     padding: 20px;
     box-shadow: -10px 10px 0px 0px black;
+    
   }
 
    
@@ -227,18 +275,12 @@ footer {
     color:black;  
 }
 
-  
-
-
 /* DIV ABOVE PINK BOXES */
 
 
 .tabs_p {
   line-height: 100%;
 }
-
-
-
 
 
 /********** PAGE 4: FILM, TV, PLUS*************/
@@ -250,11 +292,6 @@ footer {
     url(https://inspgr.id/app/uploads/2016/01/illustration-gustavo-viselner-07.jpg) left 1600px no-repeat,
     url(https://i.ytimg.com/vi/AkEsMsUOb04/maxresdefault.jpg) left 2410px no-repeat;
   background-size: 100%;
-
-
-
-  
-
 }
 
 /* !!!!!!!!ALL TEXT DIVS!!!!!!!!!  LISTED SECTION NAMES MOVIES DIVS*/
@@ -328,8 +365,6 @@ footer {
 /* TV DIVS!!!!!!! */
 
 #pg4_parenttv{
-  border: solid 5px;
-  border-color: rgb(224, 52, 0);
   height: 600px;
   width: 900px;
   padding: 10px;
@@ -343,8 +378,6 @@ footer {
 }
 
 #pg4_child1tv{
-  border: solid 3px;
-  border-color: rgb(66, 255, 66);
   height: 580px;
   width: 480px;
   float: left;
@@ -354,8 +387,6 @@ footer {
 
 
 #pg4_subtv{
-  border: solid 3px;
-    border-color: rgb(255, 0, 221);
     display: flex;
     height: 270px;
     width: 380px;
@@ -375,8 +406,6 @@ footer {
 /* ANIME DIVS !!!!!!! */
 
 #pg4_parenttv2{
-  border: solid 5px;
-  border-color: rgb(238, 255, 0);
   height: 555px;
   width: 1000px;
   padding: 5px;
@@ -390,8 +419,6 @@ footer {
 }
 
 #pg4_child1tv2{
-  border: solid 3px;
-  border-color: rgb(0, 217, 255);
   height: 550px;
   width: 500px;
   float: left;
@@ -402,8 +429,6 @@ footer {
 
 
 #pg4_subtv2{
-  border: solid 3px;
-    border-color: rgb(140, 0, 255);
     display: flex;
     height: 270px;
     width: 400px;
@@ -423,8 +448,6 @@ footer {
 /* MUSIC VIDEOS DIVS!!!!!!!!! */
 
 #pg4_parenttv3{
-  border: solid 5px;
-  border-color: rgb(121, 6, 44);
   height: 450px;
   width: 900px;
   padding: 10px;
@@ -438,8 +461,6 @@ footer {
 }
 
 #pg4_child1tv3{
-  border: solid 3px;
-  border-color: rgb(190, 138, 88);
   height: 340px;
   width: 500px;
   float: left;
@@ -452,8 +473,6 @@ footer {
 
 
 #pg4_subtv3{
-  border: solid 3px;
-    border-color: rgb(110, 122, 110);
     display: flex;
     height: 200px;
     width: 310px;
@@ -464,8 +483,6 @@ footer {
 /* YOUTUBE VIDEOS DIVS ID!!!!!!!!! */
 
 #pg4_parenttv4{
-  border: solid 5px;
-  border-color: rgb(116, 104, 108);
   height: 580px;
   width: 900px;
   padding: 20px;
@@ -479,8 +496,7 @@ footer {
 }
 
 #pg4_child1tv4{
-  border: solid 3px;
-  border-color: rgb(0, 211, 123);
+
   height: 540px;
   width: 450px;
   float: left;
@@ -492,8 +508,6 @@ footer {
 
 
 #pg4_subtv4{
-  border: solid 3px;
-    border-color: rgb(161, 76, 147);
     display: flex;
     height: 290px;
     width: 400px;
@@ -770,11 +784,23 @@ footer {
   color: rgb(211, 0, 0);
 }
 
+#pg5_test{
+  margin: auto;
+  width: 650px;
+  font-size: 25px;
+  line-height: 45px;
+  background-color: rgb(226, 226, 226);
+  box-shadow: -20px 10px 0px rgb(0, 0, 0);
+  font-family: "Mate SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 25px
+}
 
 #value_h2_2 {  /* "So is it all bad?  */
   margin: auto;
   margin-bottom: 50px;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-left: 100px;
   margin-right: 100px;
   text-align: center;
@@ -786,8 +812,21 @@ footer {
 }
 
 #pg5_parent{
-  border: solid 5px;
-  border-color: rgb(116, 104, 108);
+  border: solid black;
+  height: 3250px;
+  width: 1200px;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+
+#pg5_parent_2{
+  border: solid rgb(173, 0, 0);
   height: 3400px;
   width: 1200px;
   padding: 10px;
@@ -801,8 +840,6 @@ footer {
 }
 
 #pg5_child1{
-  border: solid 3px;
-  border-color: rgb(0, 211, 123);
   height: 320px;
   width: 800px;
   float: left;
@@ -813,6 +850,7 @@ footer {
   font-size: 17px;
   line-height: 30px;
   color: white;
+  background-color: rgba(0, 0, 0, 0.116);
 }
 
 #pg5_child1_2{
@@ -831,8 +869,6 @@ footer {
 
 
 #pg5_sub{
-  border: solid 3px;
-    border-color: rgb(161, 76, 147);
     display: flex;
     height: 220px;
     width: 350px;
@@ -915,7 +951,7 @@ footer {
     height: 220px;
     width: 350px;
     margin-bottom: 280px;
-    margin-top: 220px;
+    margin-top: 250px;
 }
 
 #pg5_sub14{
@@ -925,7 +961,7 @@ border: solid 3px;
     height: 220px;
     width: 350px;
     margin-bottom: 180px;
-    margin-top: 280px;
+    margin-top: 300px;
 }
 
 #turning_red_parent{
@@ -1002,23 +1038,9 @@ border: solid 3px;
   font-size: 30px;
 }
 
-#pg5_test{
-  border: solid 4px rgb(96, 17, 201);
-  margin: auto;
-  width: 650px;
-  font-size: 25px;
-  line-height: 45px;
-  background-color: rgb(226, 226, 226);
-  box-shadow: -20px 10px 0px rgb(0, 0, 0);
-  font-family: "Mate SC", serif;
-  font-weight: 400;
-  font-style: normal;
-  padding: 25px
-}
 /******PAGE 6: FAVORITES******/
 #pg6_body{
-  background-image: url(https://i.postimg.cc/52BHdbMK/l2.jpg);
-  background-size: cover;
+  background: radial-gradient(circle, #ebebeb, #e2c8d8);
 }
 
 #pg6_title{
@@ -1038,14 +1060,12 @@ border: solid 3px;
   font-size: 20px;
   margin: auto;
   width: 830px;
-  border: solid black;
+
 }
 
-#pg6_parent{
-  border: solid 5px;
-  border-color: rgb(185, 0, 62);
-  height: 500px;
-  width: 1400px;
+#pg6_parent{   /* PARENT BOX OF FAV MOVIE TEXT AND GIFS  */
+  height: 600px;
+  width: 1450px;
   padding: 5px;
   margin: auto;
   margin-bottom: 50px;
@@ -1053,24 +1073,26 @@ border: solid 3px;
 }
 
 #pg6_child1{
-  border: solid 3px;
-  border-color: rgb(255, 230, 0);
-  height: 480px;
-  width: 410px;
+  background-color: #adadad5d;  /* FAV MOVIE TEXT  */
+  height: 540px;
+  width: 440px;
   float: left;
+  padding: 5px;
+  font-size: 19px;
+  box-shadow: -7px 7px 0px rgb(0, 0, 0);
 }
 
 
-#pg6_sub{
-  border: solid 2px;
-    border-color: rgb(168, 101, 255);
+
+#pg6_sub{  /* FAVORITE GIFS  */
     display: flex;
     height: 200px;
     width: 310px;
     float:right;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 5px;
     margin-right: 5px;
+    box-shadow: -7px 7px 0px rgb(0, 0, 0);
 }
 
 .fav_imgs{
@@ -1104,10 +1126,11 @@ border: solid 3px;
   margin-bottom: 10px;
   width: 1300px;
   text-align: center;
-  border: solid 2px rgb(0, 153, 255);
   font-family: "Courier Prime", monospace;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 23px;
+  margin-bottom: 50px;
+  
 }
 
 
@@ -1118,19 +1141,25 @@ border: solid 3px;
   margin: auto;
   margin-bottom: 10px;
   font-size: 25px;
-  border: solid 5px rgb(0, 138, 138);
   font-family: "Mate SC", serif;
   font-weight: 600;
   font-style: normal;
+  line-height: 40px;
+  background-color: rgba(145, 145, 145, 0.479);
+  box-shadow: -7px 7px 0px rgb(0, 0, 0);
+
   }
 
 #pg7_quote_author{
-  border: solid 2px gold;
   font-size: 20px;
   text-align: right;
   height: fit-content;
   width: 800px;
   margin: auto;
+  font-family: "Courier Prime", monospace;
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: 30px;
 }
 
 #pg7_film_fest_h4{
@@ -1145,7 +1174,7 @@ border: solid 3px;
 }
 
 #pg7_first_div{
-  border: solid 2px green;
+
   height: 1000px;
   width: 1400px;
   margin: auto;
